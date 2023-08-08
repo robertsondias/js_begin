@@ -4,7 +4,7 @@
 
 // for (var x=0; x<9; x++) {
 //     p.innerHTML += x;
-// } 
+// }
 
 var produtos = [
     {
@@ -34,7 +34,7 @@ var x=0;
 //     x++;
 // }
 
-//USANDO O DO
+//USANDO O DO WHILE
 do{
     var prod = document.createElement('p');
     prod.innerHTML = produtos[x].nome + ': R$' + produtos[x].preco;
